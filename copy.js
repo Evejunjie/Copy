@@ -37,7 +37,7 @@
   function copy() {
     document.addEventListener("copy", function (evt) {
       evt.stopPropagation();
-    }, false);
+    }, true);
   }
   /** 加载直接执行 */
   if (document.readyState == "complete") {
